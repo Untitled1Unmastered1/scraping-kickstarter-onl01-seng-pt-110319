@@ -6,6 +6,7 @@ require "pry"
 #descr : project.css("p.bbcard_blurb").text
 #location: project.css("ul.project-meta span.location-name").text
 # percent funded : project.css("ul.project-stats li.first.funded strong").text
+#perc funded(if we want to turn into integer) : project.css("ul.project-stats li.first.funded strong").text
 
 
 
