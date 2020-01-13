@@ -5,7 +5,7 @@ require "pry"
 #image link :project.css("div.project-thumbnail a img").attribute("src").value
 #descr : project.css("p.bbcard_blurb").text
 #location: project.css("ul.project-meta span.location-name").text
-
+# amt funded : project.css("ul.project-stats li.first.funded strong").text
 
 
  
